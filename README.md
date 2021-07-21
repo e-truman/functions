@@ -1,1 +1,1 @@
-I practiced writing JavaScript finctions in these exercises.
+I practiced writing JavaScript functions in these exercises.
