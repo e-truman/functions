@@ -99,43 +99,43 @@
 // Create an array of numbers outside the function. Some even, some odd. After the function is defined, iterate the array of numbers with a for..of loop, and invoke the evenOrOdd function with each number as the argument.
 // What happens when you pass the argument value of 0?
 
-const numbers = [-2, 3, 0, 27, -9]
+// const numbers = [-2, 3, 0, 27, -9]
 
-const determineEvenOrOdd = (numbersArray) => {
-    let evenOrOdd = " "
-    for (const num of numbersArray) {
-        if (num % 2 === 0){
-            evenOrOdd += `${num} is even, `
-         } else {
-            evenOrOdd += `${num} is odd, `
-            }
-    }
-    return evenOrOdd  
-};
+// const determineEvenOrOdd = (numbersArray) => {
+//     let evenOrOdd = " "
+//     for (const num of numbersArray) {
+//         if (num % 2 === 0){
+//             evenOrOdd += `${num} is even, `
+//          } else {
+//             evenOrOdd += `${num} is odd, `
+//             }
+//     }
+//     return evenOrOdd  
+// };
 
-const isItEvenOrOdd = determineEvenOrOdd(numbers);
-console.log(isItEvenOrOdd);
+// const isItEvenOrOdd = determineEvenOrOdd(numbers);
+// console.log(isItEvenOrOdd);
 
 
 //try with scott
 
 
 
-// const evenOddNums = (numberArg) => {
-//     if (numberArg % 2 === 0){
-//         return `${numberArg} is even` 
-//     }
-//     else {
-//         return `${numberArg} is odd`
-//     }
-// }
+const evenOddNums = (numberArg) => {
+    if (numberArg % 2 === 0){
+        return `${numberArg} is even` 
+    }
+    else {
+        return `${numberArg} is odd`
+    }
+}
 
-// const numberArray = [-2, 0, 3, 9, 27, 30]
+const numberArray = [-2, 0, 3, 9, 27, 30]
 
-// for (const number of numberArray) {
-//     const numberToLog = evenOddNums (number)
-//     console.log(numberToLog)
-// }
+for (const number of numberArray) {
+    const numberToLog = evenOddNums (number)
+    console.log(numberToLog)
+}
 
 
 // const cookies = ["Oatmeal Raisin", "Chocolate Chip", "Sugar", "Peanut Butter", "Snickerdoodle", "Ginger"]
