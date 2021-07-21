@@ -1,0 +1,1 @@
+I practiced writing JavaScript finctions in these exercises.
